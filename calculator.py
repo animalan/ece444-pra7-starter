@@ -3,7 +3,7 @@ def add(a, b):
 
 
 def record(value, history=None):
-    if history == None:
+    if history is None:
         history = []
     history.append(value)
     return history
